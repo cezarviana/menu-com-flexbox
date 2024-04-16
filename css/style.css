@@ -40,13 +40,14 @@ body {
     opacity: 0px;
 }
 
+
 a{
     cursor: pointer;
     color: black;
     padding: 10px;
 }
 
-a:hover {
+a:hover, .cadastro{
     background-color: #5BC241;
     color: #fff;
     border-radius: 5px;
