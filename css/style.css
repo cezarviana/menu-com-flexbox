@@ -1,0 +1,39 @@
+body {
+    font-family: Public Sans;
+    display: flex;
+    flex-direction: row;
+    color: #000;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    padding: 20px;
+}
+
+.thebank {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+
+.thebank-icon{
+    width: 65px;
+    top: 45px;
+    left: 44.41px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+
+li:hover {
+    background-color: #5BC241;
+    color: #fff;
+    border-radius: 5px;
+}
+
