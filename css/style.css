@@ -5,7 +5,15 @@ body {
     color: #000;
 }
 
-.menu{
+.topbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100vw;
+    padding: 20px;
+}
+
+.menu {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -20,6 +28,8 @@ body {
     justify-content: center;
     align-items: center;
     width: 300px;
+    background-color: none;
+    color: none;
 }
 
 .thebank-icon{
@@ -30,8 +40,13 @@ body {
     opacity: 0px;
 }
 
+a{
+    cursor: pointer;
+    color: black;
+    padding: 10px;
+}
 
-li:hover {
+a:hover {
     background-color: #5BC241;
     color: #fff;
     border-radius: 5px;
