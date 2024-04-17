@@ -2,7 +2,22 @@ body {
     font-family: Public Sans;
     display: flex;
     flex-direction: row;
-    color: #000;
+}
+
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li{
+    margin-left: 15px;
 }
 
 .topbar{
