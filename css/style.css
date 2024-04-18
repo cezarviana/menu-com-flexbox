@@ -70,12 +70,17 @@ a:hover, .sign-in{
     }
 
     li{
-        padding: 20px;
+        padding: 30px;
+        font-size: 40px;
     }
 
     .thebank-icon{
         width: 60px;
         margin: 15px;
+    }
+
+    .sign-in{
+        font-size: 28px;
     }
     
 }
