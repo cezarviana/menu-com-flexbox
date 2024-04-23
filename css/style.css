@@ -25,7 +25,7 @@ body {
     justify-content: end;
     align-items: center;
     padding: 30px;
-    width: 70vw;
+    width: 80vw;
 }
 
 .thebank-icon{
@@ -61,7 +61,7 @@ a:hover, .sign-in{
     width: 120px;
     padding: 15px;
     border: none;
-    
+    cursor: pointer;
 }
 
 @media(max-width: 992px){
