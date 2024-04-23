@@ -1,37 +1,55 @@
 body {
     font-family: Public Sans;
-    display: flex;
-    flex-direction: row;
+    font-weight: 400;
 }
-
 
 .header{
     display: flex;
     align-items: center;
-    padding: 20px;
+    justify-content: space-between;
+    padding: 45px;
     margin: 20px;
-    width: 100vw;
 }
 
 .logo{
     display: flex;
     align-items: center;
     font-size: 20px;
-    font-weight: 800;
+}
+
+.thebank-icon{
+    width: 45px;
 }
 
 .menu{
     display: flex;
-    justify-content: end;
     align-items: center;
-    padding: 30px;
-    width: 80vw;
 }
 
-.thebank-icon{
-    width: 90px;
-    margin: 15px;
+.menu li a{
+    padding: 10px 5px;
+    margin: 10px;
+    transition: 0.3s ease-in-out;
 }
+
+
+.menu li a:hover{
+    background-color: #5BC241;
+    color: #fff;
+
+}
+
+.menu li a.btn{
+    background-color: #5BC241;
+    color: #fff;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding: 10px 20px;
+}
+
+
+
+/* 
 
 a{
     cursor: pointer;
@@ -40,19 +58,19 @@ a{
     margin: 10px;
 }
 
-a:hover, .sign-in{
+a:hover, .btn{
     background-color: #5BC241;
     color: #fff;
     border-radius: 5px;
 }
 
-.the-bank:hover{
+.logo:hover{
     background-color: #fff;
     color: #000;
     border-radius: 5px;
 }
 
-.sign-in{
+.btn{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -91,10 +109,10 @@ a:hover, .sign-in{
         margin: 15px;
     }
 
-    .sign-in{ 
+    .btn{ 
         font-size: 28px;
         height: 80px;
         width: 180px;
     }
     
-}
+} */
