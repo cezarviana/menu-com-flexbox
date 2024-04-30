@@ -19,8 +19,8 @@ O principal desafio é criar um visual parecido com o disponibilizado no Figma. 
 
 ## Imagens do Design criado
 <div align="center">
-<img src="design/design-desktop.png"  style="height: 300px; text-align: center;">
-<img src="design/design-mobile.png"  style="height: 300px; text-align: center;">
+<img src="src/design/design-desktop.png"  style="height: 300px; text-align: center;">
+<img src="src/design/design-mobile.png"  style="height: 300px; text-align: center;">
 </div>
 
 ## Tecnologias utilizadas
