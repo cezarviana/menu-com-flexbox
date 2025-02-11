@@ -1,5 +1,8 @@
 # Projeto The Bank Menu com flexbox
 Um projeto para treinar Git Bash, HTML e CSS. Principalmente, com um menu flexbox. Ao criar o menu assim, facilita a responsavidade do projeto.
+</br></br>
+Link do Projeto: [The Bank Menu com flexbox](https://cezarviana.github.io/menu-com-flexbox/)
+
 
 ## Descrição da tarefa
 O principal desafio é criar um visual parecido com o disponibilizado no Figma. A tarefa ajuda a aprimorar as habilidades de posicionamento de elementos usando flexbox e resposividade.
